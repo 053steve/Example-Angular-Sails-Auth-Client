@@ -1,0 +1,58 @@
+<div class="login-page">
+	<div class="img-container">
+		<div class="text-center pull-right photo">
+			<img src="images/flat-avatar.png" class="user-avatar img-circle img-responsive" />
+				<h1>VERSATILE<br/ > <span>DASHBOARD</span><br /><small>Free Version</small></h1>
+			</div>
+		</div>
+
+		<div class="form-content">
+			<div class="pro-link">
+				<a href="http://www.strapui.com/">MORE PREMIUM THEME</a>
+			</div>
+			<form role="form" class="bottom-75" id="loginForm" ng-submit="submit()" ng-show="showLogin">
+			<div class="table-form">
+				<div class="form-groups">
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" id="" placeholder="EMAIL" ng-model="credentials.email" required>
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control input-lg" id="" placeholder="PASSWORD" ng-model="credentials.password" required>
+					</div>
+
+
+				</div>
+				<div class="button-container">
+					<button type="submit" class="btn btn-default login"><img src="images/arrow.png" alt=""></button>
+				</div>
+			</div>
+			</form>
+
+			<form role="form" class="bottom-75" id="registerForm" ng-submit="signup()" ng-show="showRegister">
+			<div class="table-form">
+				<div class="form-groups">
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" id="" placeholder="USERNAME" ng-model="credentials.username" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" id="" placeholder="EMAIL" ng-model="credentials.email" required>
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control input-lg" id="" placeholder="PASSWORD" ng-model="credentials.password" required>
+					</div>
+
+
+
+				</div>
+				<div class="button-container">
+					<button type="submit" class="btn btn-default login"><img src="images/arrow.png" alt=""></button>
+				</div>
+			</div>
+			</form>
+
+			<div class="remember">
+				<span class="pass"><a href="#" ng-click="switchForm()" style="color: #FFFFFF">{{switchButtonLabel}}</a></span>
+			</div>
+		</div>
+	</div>
+</div>
