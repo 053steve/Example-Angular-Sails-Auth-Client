@@ -12,7 +12,7 @@ Made to be used with [Angular Sails Auth Server](https://github.com/zellpod/Exam
 - cd `project-directory`
 - `bower install`
 - `npm install`
--  change server url at config/development.json and config/production.json
+-  change server url at "config/development.json" and "config/production.json"
 - `gulp serve --env development` - For development mode
 - `gulp serve --env production` - For production mode
 - `gulp build` - concat, minify and generate the files for deployment
