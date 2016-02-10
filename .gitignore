@@ -3,4 +3,3 @@ thumbs.db
 *.log
 node_modules/
 bower_components/
-config/
